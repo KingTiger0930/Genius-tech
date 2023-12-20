@@ -1,0 +1,58 @@
+<svg version="1.1" id="1582598075" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" class="svg u_1582598075" data-icon-custom="true" data-icon-name="no extra fees.svg"> <style type="text/css">.st0-1582598075{fill:#348FD9;}
+	.st1-1582598075{fill:#60D1E0;}
+	.st2-1582598075{fill:#8ADBE6;}
+	.st3-1582598075{fill:#4EB9C7;}
+	.st4-1582598075{fill:#D75246;}
+	.st5-1582598075{fill:#5AC6D4;}
+	.st6-1582598075{fill:#FFB531;}
+	.st7-1582598075{fill:#E0E0DE;}
+	.st8-1582598075{fill:#C7C7C5;}
+	.st9-1582598075{fill:#92563A;}
+	.st10-1582598075{fill:#FCAC1F;}
+	.st11-1582598075{fill:#B7E7EB;}
+	.st12-1582598075{fill:none;stroke:#CE3A1D;stroke-miterlimit:10;}
+	.st13-1582598075{fill:#EA381B;stroke:#CE3A1D;stroke-miterlimit:10;}</style> 
+ <g id="Flat"> <path class="st0-1582598075" d="M216,24h272v368H216V24z"></path> 
+ <path class="st1-1582598075" d="M456,104l-80-80H184v368h272V104z"></path> 
+ <path class="st2-1582598075" d="M376,24v80h80L376,24z"></path> 
+ <g> <path class="st3-1582598075" d="M304,64h48v16h-48V64z"></path> 
+ <path class="st3-1582598075" d="M304,96h48v16h-48V96z"></path> 
+ <path class="st3-1582598075" d="M304,128h120v16H304V128z"></path> 
+ <path class="st3-1582598075" d="M304,160h120v16H304V160z"></path> 
+ <path class="st3-1582598075" d="M272,352h152v16H272V352z"></path> 
+ <path class="st3-1582598075" d="M352,192h-80v16h80v16h-80v16h80v16h-80v16h80v16h-80v16h80v16h-80v16h152v-16h-56v-16h56v-16h-56v-16h56v-16
+			h-56v-16h56v-16h-56v-16h56v-16h-56H352z"></path> 
+ <path class="st3-1582598075" d="M210.3,139.2l64-64l11.3,11.3l-64,64L210.3,139.2z"></path> 
+ <path class="st3-1582598075" d="M226.7,103.1c10.3,0,18.7-8.4,18.7-18.7s-8.4-18.7-18.7-18.7S208,74.1,208,84.4
+			C208,94.7,216.4,103.1,226.7,103.1L226.7,103.1z M226.7,81.8c1.5,0,2.7,1.2,2.7,2.7s-1.2,2.7-2.7,2.7c-1.5,0-2.7-1.2-2.7-2.7
+			C224,83,225.2,81.8,226.7,81.8z"></path> 
+ <path class="st3-1582598075" d="M288,141.3c0-10.3-8.4-18.7-18.7-18.7c-10.3,0-18.7,8.4-18.7,18.7S259,160,269.3,160
+			C279.6,160,288,151.6,288,141.3L288,141.3z M269.3,144c-1.5,0-2.7-1.2-2.7-2.7c0-1.5,1.2-2.7,2.7-2.7c1.5,0,2.7,1.2,2.7,2.7l0,0
+			C272,142.8,270.8,144,269.3,144z"></path> 
+</g> 
+ <path class="st4-1582598075" d="M48,192h176c13.3,0,24,10.7,24,24v248c0,13.3-10.7,24-24,24H48c-13.3,0-24-10.7-24-24V216
+		C24,202.7,34.7,192,48,192z"></path> 
+ <path class="st1-1582598075" d="M56,256h160v72H56V256z"></path> 
+ <path class="st5-1582598075" d="M56,256h160v16H56V256z"></path> 
+ <path class="st6-1582598075" d="M56,360h32v32H56V360z"></path> 
+ <path class="st6-1582598075" d="M120,360h32v32h-32V360z"></path> 
+ <path class="st6-1582598075" d="M184,360h32v32h-32V360z"></path> 
+ <path class="st6-1582598075" d="M56,424h32v32H56V424z"></path> 
+ <path class="st6-1582598075" d="M120,424h32v32h-32V424z"></path> 
+ <path class="st6-1582598075" d="M184,424h32v32h-32V424z"></path> 
+ <path class="st3-1582598075" d="M176,288h16v16h-16V288z"></path> 
+ <path class="st3-1582598075" d="M144,288h16v16h-16V288z"></path> 
+ <path class="st3-1582598075" d="M112,288h16v16h-16V288z"></path> 
+ <path class="st7-1582598075" d="M152,224H56V120l16,8l16-8l16,8l16-8l16,8l16-8V224z"></path> 
+ <path class="st8-1582598075" d="M80,184h48v16H80V184z"></path> 
+ <path class="st8-1582598075" d="M80,152h48v16H80V152z"></path> 
+ <path class="st9-1582598075" d="M312,456h160c8.8,0,16,7.2,16,16s-7.2,16-16,16H312l0,0V456L312,456z"></path> 
+ <path class="st6-1582598075" d="M280,472l32-16v32L280,472z"></path> 
+ <path class="st10-1582598075" d="M464,488h-16v-48c0-4.4-3.6-8-8-8h-56v-16h56c13.2,0,24,10.8,24,24V488z"></path> 
+ <path class="st11-1582598075" d="M32,120H16c0-26.5,21.5-48,48-48v16C46.3,88,32,102.3,32,120z"></path> 
+ <path class="st5-1582598075" d="M248,216c8.8,0,16,7.2,16,16v160l0,0h-16l0,0V216L248,216z"></path> 
+</g> 
+ <line class="st12-1582598075" x1="8" y1="503" x2="499" y2="11"></line> 
+ <rect x="-96.3" y="232" transform="matrix(0.7453 -0.6667 0.6667 0.7453 -99.1963 234.8792)" class="st13-1582598075" width="708.2" height="30.5"></rect> 
+ <rect x="-103.4" y="241.8" transform="matrix(0.6476 0.762 -0.762 0.6476 284.1591 -100.4362)" class="st13-1582598075" width="708.2" height="30.5"></rect> 
+</svg>

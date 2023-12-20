@@ -1,0 +1,20 @@
+<lfModule mod_expires.c> 
+    RewriteEngine on
+    RewriteCond %{REQUEST_FILENAME} !\.(js|css|png|jpg|gif)$
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule ^(.*)$ index.html [L]
+    RewriteCond %(HTTP_HOST) ^www\.genius-tech\.ca$
+    RewriteRule ^/?$ "http\:\/\/genius-tech\.ca\/"[R=301,L]
+    ExpiresActive on 
+
+    ExpiresByType image/jpg "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month" 
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/svg "access plus 1 month"
+    ExpiresByType image/webp "access plus 1 month"
+    ExpiresByType text/javascript "access plus 1 month"n
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType text/css "access plus 1 month"
+</lfModule> 

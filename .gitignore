@@ -1,0 +1,9 @@
+node_modules/
+package-lock.json
+files/*
+.prettierrc
+
+client/node_modules/
+client/package-lock.json
+client/.eslintcache
+client/build/

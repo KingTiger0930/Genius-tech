@@ -1,0 +1,31 @@
+/*.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper{
+	background-color: #23212c !important;
+}*/
+
+body {
+	font-family: 'muli'
+}
+
+a {
+	color: #299ec6
+}
+
+.text-decoration-none {
+	text-decoration: none;
+}
+
+.slick-slider button {
+	color: black;
+	/*padding: 10px;*/
+	/*border: 1px solid #ddd;*/
+	border-radius: 3px;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 30px !important;
+    color: black !important;
+}
+/*
+.slick-slider {
+	margin: 0 20px;
+}*/
