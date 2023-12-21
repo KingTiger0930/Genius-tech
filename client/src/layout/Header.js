@@ -221,7 +221,7 @@ const Header = ({ isAuthenticated, user, logout, carts }) => {
     s.type="text/javascript";
     s.id="zsiqscript";
     s.defer=true;
-    s.src="https://salesiq.zoho.com/widget";
+    // s.src="https://salesiq.zoho.com/widget";
     var t=d.getElementsByTagName("script")[0];
     t.parentNode.insertBefore(s,t);`;
   
@@ -236,28 +236,15 @@ const Header = ({ isAuthenticated, user, logout, carts }) => {
           <Box
             sx={{
               flexGrow: 1,
-              display: { xs: "flex", lg: "flex", paddingBottom: "5px" },
+              display: { xs: "flex", lg: "flex", paddingBottom: "5px"},
             }}
-            style={{
-              display: { xs: "flex", md: "flex" },
-              position: "absolute",
-              width: "100%",
-              top: 0,
-              right: 0,
-              justifyContent: "end",
-              marginTop: "10px",
-              paddingRight: "100px",
-            }}
+            className="search-box"
           >
             <Typography
               color="black"
               edge="end"
               component="div"
-              style={{
-                marginRight: 0,
-                paddingBottom: "5px",
-                paddingRight: "10px",
-              }}
+              className="search-p"
               spacing={2}
             >
               <Grid container spacing={1} alignItems="flex-end">
@@ -266,17 +253,11 @@ const Header = ({ isAuthenticated, user, logout, carts }) => {
                     <SearchIcon />
                   </Link>
                 </Grid>
-                <Grid item style={{ padding: 0, margin: "auto" }}>
+                <Grid item className="search-input-grid">
                   <input
                     id="input-search-grid"
                     placeholder="Search..."
-                    style={{
-                      borderLeft: 0,
-                      borderRight: 0,
-                      borderTop: 0,
-                      padding: 0,
-                      paddingLeft: "10px",
-                    }}
+                    className="search-input"
                   />
                 </Grid>
               </Grid>
@@ -285,15 +266,12 @@ const Header = ({ isAuthenticated, user, logout, carts }) => {
               color="black"
               edge="end"
               spacing={2}
-              style={{
-                marginRight: 0,
-                fontWeight: "bold"
-              }}
+              className="contact-us"
             >
               Contact Us: +1 647 951 8664
             </Typography>
           </Box>
-          <Box>
+          <Box sx={{ marginTop: "7px" }}>
             <Link rel="canonical" to='/'>
               <Box
                 component="img"
