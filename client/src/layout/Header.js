@@ -221,7 +221,7 @@ const Header = ({ isAuthenticated, user, logout, carts }) => {
     s.type="text/javascript";
     s.id="zsiqscript";
     s.defer=true;
-    // s.src="https://salesiq.zoho.com/widget";
+    s.src="https://salesiq.zoho.com/widget";
     var t=d.getElementsByTagName("script")[0];
     t.parentNode.insertBefore(s,t);`;
   
