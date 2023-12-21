@@ -8,6 +8,8 @@ import Stack from "@mui/material/Stack";
 // import Button from '@mui/material/Button';
 import Modal from "@mui/material/Modal";
 import Badge from "@mui/material/Badge";
+import { Grid } from "@mui/material";
+import SearchIcon from "@mui/icons-material/Search";
 
 import TwitterIcon from "@mui/icons-material/Twitter";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -17,8 +19,6 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import SearchIcon from "@mui/icons-material/Search";
-import TextField from '@mui/material/TextField';
 
 import { Menu as DropMenu, MenuItem as DropMenuItem, SubMenu } from "@szhsin/react-menu";
 import "@szhsin/react-menu/dist/index.css";
@@ -229,25 +229,77 @@ const Header = ({ isAuthenticated, user, logout, carts }) => {
   }, []);
 
   return (
-    <AppBar position="fixed" sx={{ backgroundColor: "#fff", boxShadow: "none", px: 0 }}>
+    <AppBar position="fixed" sx={{ backgroundColor: "#fff", boxShadow: "none", px: 0, borderTopLeftRadius: 0,
+    borderTopRightRadius: 0, }}>
       <Box>
-        <div className="box-style">
-          <div className="search-box">
-            <SearchIcon />
-            <TextField label="Search..." focused variant="outlined"  InputProps={{ sx: { height: 30, color: "#1976d2", marginRight: "10px"} }}/>
-          </div>
-          <div className="contact-us">
-            Contact Us: +1 647 951 8664
-          </div>
-        </div>
-        <Toolbar sx={{ justifyContent: "space-between", marginTop: "10px" }}>
+        <Toolbar sx={{ justifyContent: "space-between", pt: 2 }}>
+          <Box
+            sx={{
+              flexGrow: 1,
+              display: { xs: "flex", lg: "flex", paddingBottom: "5px" },
+            }}
+            style={{
+              display: { xs: "flex", md: "flex" },
+              position: "absolute",
+              width: "100%",
+              top: 0,
+              right: 0,
+              justifyContent: "end",
+              marginTop: "10px",
+              paddingRight: "100px",
+            }}
+          >
+            <Typography
+              color="black"
+              edge="end"
+              component="div"
+              style={{
+                marginRight: 0,
+                paddingBottom: "5px",
+                paddingRight: "10px",
+              }}
+              spacing={2}
+            >
+              <Grid container spacing={1} alignItems="flex-end">
+                <Grid item>
+                  <Link rel="search-result" to="/search-result">
+                    <SearchIcon />
+                  </Link>
+                </Grid>
+                <Grid item style={{ padding: 0, margin: "auto" }}>
+                  <input
+                    id="input-search-grid"
+                    placeholder="Search..."
+                    style={{
+                      borderLeft: 0,
+                      borderRight: 0,
+                      borderTop: 0,
+                      padding: 0,
+                      paddingLeft: "10px",
+                    }}
+                  />
+                </Grid>
+              </Grid>
+            </Typography>
+            <Typography
+              color="black"
+              edge="end"
+              spacing={2}
+              style={{
+                marginRight: 0,
+                fontWeight: "bold"
+              }}
+            >
+              Contact Us: +1 647 951 8664
+            </Typography>
+          </Box>
           <Box>
             <Link rel="canonical" to='/'>
               <Box
                 component="img"
                 alt="logo"
                 src="/logo.svg"
-                sx={{ mr: 2, py: 1 }}
+                sx={{ mr: 2, py: 0 }}
               />
             </Link>
           </Box>

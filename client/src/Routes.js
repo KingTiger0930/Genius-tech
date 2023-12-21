@@ -51,17 +51,21 @@ import Blog22 from "./view/Blog/Blog22";
 import Blog23 from "./view/Blog/Blog23";
 import Blog24 from "./view/Blog/Blog24";
 import Blog25 from "./view/Blog/Blog25";
+import Blog26 from "./view/Blog/Blog26";
+import Blog27 from "./view/Blog/Blog27";
 import NoFound from "./view/NoFound";
+import SearchResult from "./view/SearchResult";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import { Switch, Route } from "react-router";
+import { Switch, Route, Redirect } from "react-router";
 
 const Routes = () => {
   
   return (
         <Switch>
+          <Redirect exact from="/itcompany" to="/" />
           <Route exact path="/" component={Dashboard} />
 
           <Route exact path="/managed-it-services" component={ITservice} />
@@ -109,6 +113,9 @@ const Routes = () => {
           <Route exact path="/it-strategy-how-to-find-out-is-your-strategy-good-bad-or-ugly" component={Blog23} />
           <Route exact path="/why-it-security-is-important-for-business-different-forms-of-it-attacks" component={Blog24} />
           <Route exact path="/cloud-migration" component={Blog25} />
+          <Route exact path="/cyber-security" component={Blog26} />
+          <Route exact path="/The-major-5-challenges-faces-Startups-with-IT-managed-service-providers-in-Canada-and-how-they-overcome" component={Blog27} />
+          <Route exact path="/search-result" component={SearchResult} />
           <Route path="*" component={NoFound} />
 
         </Switch>

@@ -1,11 +1,12 @@
 import React from "react";
 
-import { Switch, Route } from "react-router";
+import { Switch, Route, Redirect } from "react-router";
 
 export default function Router() {
   return (
         <Switch>
           <Route exact path="/" />
+          <Redirect exact from="/itcompany" to="/" />
 
           <Route exact path="/managed-it-services" />
           <Route exact path="/desktop-management-and-remote-support-service" />
@@ -52,6 +53,9 @@ export default function Router() {
           <Route exact path="/it-strategy-how-to-find-out-is-your-strategy-good-bad-or-ugly" />
           <Route exact path="/why-it-security-is-important-for-business-different-forms-of-it-attacks" />
           <Route exact path="/cloud-migration" />
+          <Route exact path="/cyber-security" />
+          <Route exact path="/The-major-5-challenges-faces-Startups-with-IT-managed-service-providers-in-Canada-and-how-they-overcome" />
+          <Route exact path="/search-result"/>
 
         </Switch>
   );

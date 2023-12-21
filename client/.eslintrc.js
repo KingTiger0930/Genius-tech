@@ -18,4 +18,7 @@ module.exports = {
     "plugins": [
         "react"
     ],
+    "rules": {
+        "no-mixed-spaces-and-tabs": 0
+    }
 };
