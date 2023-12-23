@@ -18,9 +18,9 @@ export default function Dashboard() {
       </Helmet>
       <Banner img='/home/background-banner.svg'/>
       <Callus
-      title='Do You Own A Business And Need Dedicated Support?'
-      content="Genius Tech provides a plethora of exceptional IT services to help you resolve your IT challenges and grow seamlessly."
-      content2="Every business owner wants to save money and time ensuring the optimum success of the business. whether you are a startup or a medium scale enterprise, Genius Tech provides all-in-one manages IT services, network solutions, professional technical support, IT support consulting and services to help you achieve your business goals endlessly."
+      title='Do you own a business and need dedicated IT support?'
+      content="Genius Tech Inc. provides a plethora of exceptional IT services to help you resolve your IT challenges and grow seamlessly."
+      content2="Every business owner wants to save money and time ensuring the optimum success of the business. whether you are a startup or a medium scale enterprise, Genius Tech provides all-in-one managed IT services, network solutions, professional technical support, IT support consulting and services to help you achieve your business goals endlessly."
       />
       <OurMission />
       <RoadMap />
